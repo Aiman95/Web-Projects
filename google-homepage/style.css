@@ -1,0 +1,52 @@
+body {
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+}
+#header {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row-reverse;
+
+}
+#sign-in-button {
+    background-color: #1a73e8;
+    color: white;
+    border: 1px solid transparent;
+}
+#middle {
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+}
+#middle-button {
+
+    display: flex;
+    align-self: center;
+
+}
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 400px;
+}
+img{
+    max-width: fit-content;
+    align-self: center;
+}
+footer{
+    background-color: #e3e7eb;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+
+}
+#footer-lower {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 90px;
+}
+input{
+    margin: 0px 300px;
+}
