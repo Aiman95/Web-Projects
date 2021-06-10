@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  max-width: 500px;
+  min-height: 500px;
+  margin: 2rem auto;
+  background-color: gray;
+  border: 2px solid black;
+  
+  
+
+}
+
+.content{
+    background-color: rgb(206, 206, 226);
+    border: 1px solid white;
+}
+
+.contentHoverd{
+  background-color: white;
+  background-color: rgb(206, 206, 226);
+  border: 1px solid white;
+}
+
+
+h1 {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  
+}
+
+button {
+  margin: 0% 45%;
+  background-color: #e7e7e7; color: black; /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
